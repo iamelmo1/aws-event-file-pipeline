@@ -1,0 +1,9 @@
+{
+  "QueueConfigurations": [
+    {
+      "Id": "S3ObjectCreated",
+      "QueueArn": "arn:aws:sqs:us-east-2:ACCOUNT_ID:angel-pipeline-queue",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
